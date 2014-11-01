@@ -1,6 +1,9 @@
 ActiveJson
 ==========
 
+* json데이터와 C++클래스간의 ORM 맵핑
+* json데이터 형식 자동 validation
+
 Concept
 ----
 __map.json__
