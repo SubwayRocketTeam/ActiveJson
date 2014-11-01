@@ -9,7 +9,7 @@ __map.json__
   "id" : 0,
   "description" : "hello world",
   
-  objects : [
+  "objects" : [
     {
       "name" : "market",
       "x" : 15, "y" : 20
