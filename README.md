@@ -63,3 +63,9 @@ m.objects.push_back(obj);
 
 m.save("output.json");
 ```
+
+Usage
+----
+```
+active_json source_script
+```
