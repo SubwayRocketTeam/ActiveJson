@@ -1,0 +1,17 @@
+#pragma once
+
+#include <string>
+#incldue <vector>
+
+class <%=@class_name%>{
+public:
+  static bool load(const std::string &path, <%=@class_name%> &dst);
+  bool save(const std::string &path);
+  
+public:
+  
+public:
+  <% for @value in @values %>
+    <%=@value.type> <%=@value.name%>;
+  <% end %>
+};
