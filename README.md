@@ -39,7 +39,11 @@ end
 ```
 __C++ Usage__
 ```C++
-map = Map::load("map.json");
+Map map;
+if(!Map::load("map.json", map)){
+  printf("load failed\n");
+  return false;
+}
 
 printf("id : %d\n", map.id);
 printf("desc : %s\n", map.description.c_str());
